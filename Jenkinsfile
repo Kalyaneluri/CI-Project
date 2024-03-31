@@ -11,6 +11,7 @@ pipeline{
         string(name: 'ImageName', description: "name of the docker build", defaultValue: 'javapp')
         string(name: 'ImageTag', description: "tag of the docker build", defaultValue: 'v1')
         string(name: 'DockerHubUser', description: "name of the Application", defaultValue: 'kalyaneluri')
+        string(name: 'EC2IP', description: "EC2 instance public IP", defaultValue: '54.162.78.243')
     }
 
     stages{
